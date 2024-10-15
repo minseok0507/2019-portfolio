@@ -1,0 +1,278 @@
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+
+body{
+  width: 100%;
+  font-family: 'SeoulNamsan EB'
+}
+
+.wrap{
+  width: 100%;
+  min-width: 1400px;
+}
+
+ol,ul,li{
+  list-style: none;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 70px;
+  padding-top: 10px;
+  background: white;
+  box-shadow: 1px 1px 3px black;
+  z-index: 99;
+}
+
+header>div {
+  float: left;
+  height: 100%;
+}
+
+.seoulgo_logo {
+  width: 20%;
+  text-align: center;
+}
+
+.seoulgo_logo img {
+  height: 50px;
+}
+
+header>.h1 {
+  width: 50%;
+  font-size: 20px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.gnb {
+  width: 30%;
+  text-align: center;
+}
+
+.gnb a {
+  font-size: 20px;
+  float: left;
+  line-height: 50px;
+  padding: 0 7%;
+  color: black;
+  font-weight: 900;
+}
+
+
+
+
+.background{
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: -99;
+}
+
+.background img{
+  width: 100%;
+}
+
+.audth_info h1{
+  font-size: 30px;
+}
+
+.audth_info{
+  background: white;
+  margin-top: 500px;
+  padding: 50px;
+}
+
+.audth_info_tit{
+  position: absolute;
+  top: 500px;
+  color: white;
+}
+
+.audth_info_tit>span:nth-child(1){
+  font-size: 50px;
+}
+
+
+.audth_bic_info{
+    width: 1200px;
+    display: block;
+    margin:50px auto;
+}
+
+.audth_bic_info span{
+  font-family: 'Seoulhangang';
+  font-size: 20px;
+
+}
+
+.audth_deta_info{
+  margin-top: 50px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.audth_deta_info table{
+  width: 1000px;
+  line-height: 2;
+}
+
+
+.audth_map{
+  width: 1200px;
+  margin:0 auto;
+}
+
+
+
+
+
+
+#slider {
+  overflow: hidden;
+  border-radius: 4px;
+  margin: 100px auto;
+  position: relative;
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+}
+
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 600px;
+  height: 360px;
+  background: #ccc;
+  text-align: center;
+  line-height: 300px;
+}
+
+#slider ul li img{
+  width: 100%;
+}
+
+
+a.control_prev, a.control_next {
+  position: absolute;
+  z-index: 98;
+  display: block;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+  opacity: 0.8;
+  height: 360px;
+  width: 60px;
+  line-height: 360px;
+  text-align: center;
+
+  cursor: pointer;
+}
+
+a.control_prev:hover, a.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+  left: 540px;
+  border-radius: 2px 0 0 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  width: 100%;
+  height: 150px;
+  background: gray;
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+}
+
+.footer{
+  width: 1400px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.footer>div{
+  float: left;
+  text-align: center;
+}
+
+.footer img{
+  width: 100px;
+  margin-top: 25px;
+}
+
+
+.footer_info{
+  width: 50%;
+  text-align: center;
+  font-family: "맑은 고딕";
+  font-weight: 900;
+}
+
+.footer_indiv{
+  width: 25%;
+}
+
+.footer_logo{
+  width: 25%;
+}
+
+
+.fo_1{
+  line-height: 3;
+  font-size:20px;
+
+}
+
+.fo_2{
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.fo_3{
+  font-size:22px;
+  font-family: '바탕체';
+  font-weight: 600;
+}
